@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
-    background-color: grey;
+    background-color: #849EB2;
     margin-bottom: 50px;
 }
 
@@ -14,28 +14,30 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(160, 150, 150, 0.486);
+    background-color: #FF6A65;
 }
 
 li {
     font-weight: bold;
     float: left;
 }
-
+a{
+    text-decoration: none;
+}
 li a {
 
     display: block;
-    color: rgb(31, 18, 18);
+    color: rgb(8, 8, 8);
     text-align: center;
     padding: 20px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(71, 219, 219);
+    background-color: #C8CC28;
 }
 .active {
-    background-color: lightblue;
+    background-color: #4CB0FF;
 }
 .about {
     float: left;
@@ -69,21 +71,30 @@ h1 {
     margin: 5px;
 }
 .footer {
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(1, 5, 1);
+    font-weight: bold;
     text-align: center;
-    background-color: rgb(218, 85, 85);
+    background-color: #FF6A65;
     position: fixed;
-    padding: 20px;
+    padding: 16px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
-    width: 100%
-    background-color: orange;
-    font-size: 20px;
+    width: 100%;
+    font-size: 24px;
 }
 .line {
     width: 100%; 
     height: 7px;
-    background: rgb(218, 85, 85); 
+    background: #AFB22C; 
     overflow: hidden;
+}
+.sepparator {
+    bottom: 22px;
+    height: 5px;
+    width: 100%;
+    background-color: #C8CC28;
 }
