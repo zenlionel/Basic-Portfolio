@@ -1,6 +1,7 @@
 
 body {
-    background-color: #849EB2;
+    font-family:g Georgia, 'Times New Roman', Times, serif;
+    background-color: #BEEBFF;
     margin-bottom: 50px;
 }
 
@@ -9,16 +10,37 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FF6A65;
+    background-color: #999789;
 }
 
 li {
     font-weight: bold;
     float: left;
 }
-
-a{
+.main img {
+    border: 2px solid black;
+    
+}
+a {
     text-decoration: none;
+}
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+.h2 {
+    background: #51C6CC;
+   display: inline-block;
+    padding: 4px;
+    width: 30%;
+    margin:  2%;
+    font-size: 35px;
+    font-weight: bold;
+border-bottom: 4px solid #999789;
+}
+h3 {
+    padding: 4px;
+    text-align: center;
 }
 
 li a {
@@ -31,10 +53,10 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #C8CC28;
+    background-color: #51C6CC;
 }
 .active {
-    background-color: #4CB0FF;
+    background-color: #51C6CC;
 }
 .about {
     float: left;
@@ -44,22 +66,16 @@ li a:hover:not(.active) {
     width: 55%;
     padding: 1%;
     margin: 2%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.432);
 }
 #contactme {
     padding: 2px;
     width: 65%;
     border-style: solid;
     border-bottom-width: 4px;
+    border-bottom-color: #51C6CC;
     font-weight: bold;
-    font-size: 35px;
-    
-}
-h1 {
-    font-size: 35px;
-    font-weight: bold;
-
-
+    font-size: 35px;   
 }
 .pic {
     float: left;
@@ -70,7 +86,7 @@ h1 {
     text-align: center;
     float: right;
     font-size: 30px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.521);
     padding: 2%;
     margin: 2%;
     width: 30%;
@@ -81,10 +97,10 @@ h1 {
 .footer {
     border-top-style: solid;
     border-top-width: 5px;
-    border-top-color: rgb(1, 5, 1);
+    border-top-color: #51C6CC;
     font-weight: bold;
     text-align: center;
-    background-color: #FF6A65;
+    background-color: #51C6CC;
     position: fixed;
     padding: 16px;
     bottom: 0px;
@@ -97,18 +113,18 @@ h1 {
 .line {
     width: 100%; 
     height: 7px;
-    background: #AFB22C; 
+    background: #51C6CC; 
     overflow: hidden;
 }
 .sepparator {
     bottom: 22px;
     height: 5px;
     width: 100%;
-    background-color: #C8CC28;
+    background-color: #51C6CC;
 }
 .container {
     display: inline-block;
-    background-color: rgba(105, 98, 98, 0.404);
+    background-color: #51C6CC;
     font-size: 15px;
     line-height: 22.5px;
     padding: 2%;
@@ -117,6 +133,42 @@ h1 {
     height: 40%;
 }
 .box1,textarea {
-    border: 2px ridge #79FF87;
+    border: 2px ridge rgb(112, 112, 112);
     min-height: 5%;
+}
+.row {
+    background-color: rgba(81, 202, 204, 0.438);
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin: 16px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: red;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    border-style: ridge;
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: #686868;
+    padding: 10px;
 }
