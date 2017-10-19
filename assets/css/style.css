@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: grey;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(160, 150, 150, 0.486);
+}
+
+li {
+    font-weight: bold;
+    float: left;
+}
+
+li a {
+
+    display: block;
+    color: rgb(31, 18, 18);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(71, 219, 219);
+}
+.active {
+    background-color: lightblue;
+}
+.about {
+    float: left;
+    text-align: justify;
+    font-family:g Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    width: 55%;
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+}
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+.pic {
+    float: left;
+    margin: 10px;
+}
+.connect {
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    font-size: 30px;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+}
+.icon {
+    margin: 5px;
+}
+.footer {
+    text-align: center;
+    background-color: rgb(218, 85, 85);
+    position: fixed;
+    padding: 20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    width: 100%
+    background-color: orange;
+    font-size: 20px;
+}
+.line {
+    width: 100%; 
+    height: 7px;
+    background: rgb(218, 85, 85); 
+    overflow: hidden;
+}
