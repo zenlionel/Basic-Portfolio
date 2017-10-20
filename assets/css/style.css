@@ -80,7 +80,7 @@ li a:hover:not(.active) {
     width: 65%;
     border-style: solid;
     border-bottom-width: 4px;
-    border-bottom-color: #51C6CC;
+    border-bottom-color: rgb(25, 53, 54);
     font-weight: bold;
     font-size: 35px;   
     line-height: 52.5px;
